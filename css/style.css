@@ -28,7 +28,7 @@ body{
     z-index: 1;
   }
   
-  .side-nav a{
+  .side-nav .side-list a{
     padding:5px 0 5px 20px;
     text-decoration:none;
     font-size:22px;
@@ -37,7 +37,7 @@ body{
     transition:0.3s;
   }
   
-  .side-nav a:hover{
+  .side-nav .side-list a:hover{
     color:#fff;
     text-decoration: none;
     background-color: #333;
@@ -65,13 +65,29 @@ body{
 
 .icon-list .fa {
     font-size: 30px;
-    padding-right: 10px;
     color: #000;
+    padding: 3px 5px;
+    margin: 0 5px;
 }
 
 .icon-list .fa:hover{
     text-decoration: none;
     color: #333;
+}
+
+#side-icon{
+  padding-left: 15px;
+  margin-top: 50px;
+}
+
+#side-icon .fa{
+    font-size: 30px;
+    color: #fff;
+    float: left;
+}
+
+#side-icon .fa:hover{
+    background-color: #333;
 }
   
   @media(max-width:568px){
