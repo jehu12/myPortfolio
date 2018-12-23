@@ -110,10 +110,7 @@ body{
 
 #work{
   margin-top: 200px;
-}
-
-#work-divi{
-  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 .work img{
