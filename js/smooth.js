@@ -20,12 +20,12 @@ window.sr = ScrollReveal();
 //   origin:'bottom'
 // });
  sr.reveal('.showcase-left', {
-   duration: 2000,
+   duration: 1000,
    origin:'top',
    distance:'300px'
  });
  sr.reveal('.showcase-right', {
-   duration: 2000,
+   duration: 1000,
    origin:'right',
    distance:'300px'
  });
