@@ -119,3 +119,9 @@ body{
   margin-bottom: 10px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5), 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 480px){
+	.bottom-class {
+    margin-bottom: 50px;
+	}
+}
